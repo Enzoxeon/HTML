@@ -1,15 +1,11 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola Mundo</title>
 </head>
 <body>
-    <div class="contenedor">
-<h1> hola mundo<h1>
-        </p>
-    </div>
-    <script src="main.js"></script>
+    <h1>Hola Mundo</h1>
 </body>
 </html>
