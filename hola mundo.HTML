@@ -3,14 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fondo Rojo</title>
+    <title>Formulario con Fondo Rojo</title>
     <style>
         body {
-            background-color: red; /* fondo rojo */
+            background-color: red; /* Fondo rojo */
+            font-family: Arial, sans-serif; /* Fuente */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Centra el contenido verticalmente */
+            margin: 0; /* Elimina el margen por defecto */
+        }
+
+        .formulario {
+            background-color: white; /* Fondo blanco para el formulario */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para el formulario */
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
         }
     </style>
 </head>
 <body>
-    <h1>¡Hola, mundo!</h1>
+    <div class="formulario">
+        <h1>Iniciar sesión</h1>
+        <form>
+            <input type="text" id="usuario" name="usuario" placeholder="Usuario" required>
+            <input type="password" id="password" name="password" placeholder="Contraseña" required>
+            <button type="submit">Iniciar sesión</button>
+        </form>
+    </div>
 </body>
 </html>
